@@ -1,0 +1,28 @@
+{
+  "name": "simple-mock-server",
+  "version": "1.0.0",
+  "description": "A simple mock server build with node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngErik/simple-mock-server.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Erik Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngErik/simple-mock-server/issues"
+  },
+  "homepage": "https://github.com/EngErik/simple-mock-server#readme",
+  "dependencies": {
+  "body-parser": "^1.15.0",
+  "consign": "^0.1.2",
+  "express": "^4.13.4"
+  }
+}
