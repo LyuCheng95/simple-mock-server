@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/EngErik/simple-mock-server#readme",
   "dependencies": {
-  "body-parser": "^1.15.0",
-  "consign": "^0.1.2",
-  "express": "^4.13.4"
+    "body-parser": "^1.15.0",
+    "consign": "^0.1.2",
+    "express": "^4.13.4"
   }
 }
