@@ -15,4 +15,5 @@ module.exports = function (app) {
   app.route('/product').get(api.product);
   app.route('/reviews').get(api.reviews);
   app.route('/getUpdate').get(api.getUpdate);
+  app.route('/search').get(api.search);
 };
