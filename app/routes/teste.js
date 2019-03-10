@@ -10,10 +10,12 @@ module.exports = function (app) {
   app.route('/user/trackAction').post(api.trackAction);
   app.route('/item/retrievePersonalizedItem').post(api.retrievePersonalizedItem);
   app.route('/user/closeSession').post(api.closeSession);
-  app.route('/products').get(api.products);
+  app.route('/products').post(api.products);
   app.route('/currency').get(api.currency);
   app.route('/product').get(api.product);
   app.route('/reviews').get(api.reviews);
   app.route('/getUpdate').get(api.getUpdate);
   app.route('/search').get(api.search);
+  app.route('/like').post(api.like);
+  app.route('/retrieveItemByKeyword').post(api.retrieveItemByKeyword);
 };
