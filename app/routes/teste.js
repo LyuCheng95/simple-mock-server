@@ -17,5 +17,5 @@ module.exports = function (app) {
   app.route('/getUpdate').get(api.getUpdate);
   app.route('/search').get(api.search);
   app.route('/like').post(api.like);
-  app.route('/retrieveItemByKeyword').post(api.retrieveItemByKeyword);
+  app.route('/item/retrieveItemByKeyword').post(api.retrieveItemByKeyword);
 };

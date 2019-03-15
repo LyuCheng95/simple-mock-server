@@ -446,447 +446,170 @@ api.currency = (req, res) => {
 
 api.product = (req, res) => {
   const message = {  
-    "InterClusterId":"IC70571",
-    "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-    "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-    "Category":"Printers",
-    "Description":"The Canon PIXMA MG5520 all-in-one wireless inkjet photo printer is an advanced printer with a smart design delivering a combination of high performance and real convenience. Print beautiful, borderless photos up to 8.5\" x 11\" and crisp documents with remarkable quality. The MG5520 offers 4800 x 1200 maximum color dpi with 2pl technology, five individual ink tanks and the ChromaLife100+ system. If a color runs out, you only replace the ink tank you need. Plus, the Snap Edge feature allows for quick access to the ink tanks for easy replacement. With a 2.5\" LCD screen, the MG5520 lets you preview your images before you print, and correct your photos with Auto Photo Fix II.",
-    "Currency":"SGD",
-    "Price":106.92,
-    "ShippingPrice":0.0,
-    "PriceWithShipping":106.92,
-    "SellerId":"AIWIY4OLMONIH",
-    "Specifications":[  
-       "\u003cspan id\u003d\"replacementPartsFitmentBulletInner\"\u003e \u003ca class\u003d\"a-link-normal hsx-rpp-fitment-focus\" href\u003d\"https://www\\uff0eamazon\\uff0ecom#\"\u003eEnter your model number\u003c/a\u003e \u003cspan\u003eto make sure this fits\\uff0e\u003c/span\u003e \u003c/span\u003e",
-       "Easily print and scan from your mobile devices and popular online cloud services with our free Canon PRINT app\\uff0e",
-       "Built-In Auto Duplex Printing: Duplex Printing: Automatically print on both sides of the page without the hassle of turning it over manually\\uff0e This can reduce your paper consumption and cost by up to 50%\\uff0e",
-       "Compatible with Individual/Combo CLI-251 XL Ink Tanks (Cyan, Magenta, Yellow, Black) \u0026amp; PGI-250 XL Pigment Black Ink Tanks\\uff0e",
-       "AirPrint: Wirelessly print photos, emails, web pages, documents and more from compatible iPad, iPhone or iPod touch devices",
-       "4800 x 1200 dpi photo resolution, Load plain and photo paper right into of the printer at the same time!"
-    ],
-    "Images":[  
-       "https://images-na.ssl-images-amazon.com/images/I/41HkWAsR9FL._SS40_.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/41HkWAsR9FL.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/415hkneRHFL._SS40_.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/415hkneRHFL.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/41FiVQ8SJ9L._SS40_.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/41FiVQ8SJ9L.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/41sLa3jwxIL._SS40_.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/41sLa3jwxIL.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/416KA6sJDcL._SS40_.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/416KA6sJDcL.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/51lhSPelpbL._SS40_.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/51lhSPelpbL.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/41FM1Cj7oTL._SS40_.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/41FM1Cj7oTL.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/31IJK%2BeTRyL._SS40_.jpg",
-       "https://images-na.ssl-images-amazon.com/images/I/31IJK%2BeTRyL.jpg"
-    ],
-    "CrawlerUrls":[  
-       {  
-          "Retailer":"Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI"
-       }
-    ],
-    "NumberOfOffers":22,
-    "Offers":[  
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"SOUTHWEST COMPUTERS",
-          "SellerRating":85.0,
-          "SellerId":"A12M9MB5GL364Y",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":407.51,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":407.51,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"PacificTech",
-          "SellerRating":88.0,
-          "SellerId":"A17LFE53QSA0DN",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":243.19,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":243.19,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"welltopinc",
-          "SellerRating":97.0,
-          "SellerId":"AHXBXO79UALHM",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":338.28,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":338.28,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"BestPrinters",
-          "SellerRating":69.0,
-          "SellerId":"AIWIY4OLMONIH",
-          "Retailer":"Amazon",
-          "Condition":"Used",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":106.92,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":106.92,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"punchbanana",
-          "SellerRating":77.0,
-          "SellerId":"A1VR96VXS6BLLT",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":334.76,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":334.76,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"killow electronics",
-          "SellerRating":100.0,
-          "SellerId":"A1K3QKPZWKYMC0",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":271.71,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":271.71,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"Reliable Home Supplies",
-          "SellerRating":100.0,
-          "SellerId":"A31B1CAFXRQ9BV",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":271.38,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":271.38,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"TechWoods",
-          "SellerRating":97.0,
-          "SellerId":"A15QMLFSVCH3T6",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":270.36,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":270.36,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"HappyShopping13",
-          "SellerRating":91.0,
-          "SellerId":"A383QGXZQ626S5",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":271.71,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":271.71,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"Phase 3, LLC",
-          "SellerRating":99.0,
-          "SellerId":"A3HSHD0T91F47D",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":238.15,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":238.15,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"eDirect",
-          "SellerRating":95.0,
-          "SellerId":"A3FDNO47PM80XV",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":256.61,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":256.61,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"etrader2008",
-          "SellerRating":97.0,
-          "SellerId":"A2ZDOQCTP71F2K",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":240.46,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":240.46,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"gold stars printer",
-          "SellerRating":87.0,
-          "SellerId":"A20D6SB0465L0J",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":228.24,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":228.24,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"thehappystore",
-          "SellerRating":89.0,
-          "SellerId":"A3QZEZE55VH2T8",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":191.29,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":191.29,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"Wish Upon A Moment",
-          "SellerRating":0.0,
-          "SellerId":"A2Q96EZN4UUK5I",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":169.82,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":169.82,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"ELIFE (NO TAX)",
-          "SellerRating":94.0,
-          "SellerId":"AG1CHDZF8IHG2",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":203.79,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":203.79,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"Amazing Lighting deal",
-          "SellerRating":88.0,
-          "SellerId":"AVUBP608KDX58",
-          "Retailer":"Amazon",
-          "Condition":"Used - Like New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":148.09,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":148.09,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"Bob of CA",
-          "SellerRating":100.0,
-          "SellerId":"A24JIWS6X9NLWQ",
-          "Retailer":"Amazon",
-          "Condition":"New",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":169.82,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":169.82,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"LEESANCHRIS",
-          "SellerRating":0.0,
-          "SellerId":"A2EH4E5ZJRTTO1",
-          "Retailer":"Amazon",
-          "Condition":"Used - Good",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":108.67,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":108.67,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"cemalim21",
-          "SellerRating":100.0,
-          "SellerId":"AVKJVZKGPQQ6X",
-          "Retailer":"Amazon",
-          "Condition":"Used - Good",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":116.15,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":116.15,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"BOUZA\u0027S STORE",
-          "SellerRating":97.0,
-          "SellerId":"A3JIZALIK8V2SH",
-          "Retailer":"Amazon",
-          "Condition":"Used - Good",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":122.26,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":122.26,
-          "ShippingCountries":[  
- 
-          ]
-       },
-       {  
-          "ProductId":"B00EHDZMGI_Amazon",
-          "Url":"www.amazon.com/gp/offer-listing/B00EHDZMGI",
-          "Title":"Canon PIXMA Color Printer MG5520 (Discontinued by Manufacturer)",
-          "SellerName":"Toyarcade",
-          "SellerRating":89.0,
-          "SellerId":"A3GIFK3NGJQKTP",
-          "Retailer":"Amazon",
-          "Condition":"Used - Good",
-          "Currency":"SGD",
-          "Category":"Printers",
-          "Price":122.25,
-          "ShippingPrice":0.0,
-          "PriceWithShipping":122.25,
-          "ShippingCountries":[  
- 
-          ]
-       }
-    ]
+   "InterClusterId":"ICS5411",
+   "Url":"detail.tmall.com/item.htm?id\u003d523106884882",
+   "Title":"BOSE SoundSport耳塞式运动耳机II 入耳式通用跑步降噪线控带麦",
+   "Category":"Bluetooth Headphones",
+   "Description":"var desc\u003d\u0027\u003cp\u003e\u003ca href\u003d\"https://detail.tmall.com/item.htm?spm\u003da220z.1000880.0.0.7V8igN\u0026id\u003d560744591984\" target\u003d\"_blank\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i1/647482297/TB2NCqiah6I8KJjy0FgXXXXzVXa-647482297.gif\"\u003e\u003c/a\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i2/647482297/TB20UO1XRbM8KJjSZFFXXaynpXa_!!647482297.jpg\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i4/647482297/TB2TV3srmVmpuFjSZFFXXcZApXa_!!647482297.png\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i4/647482297/TB2EgEPrilnpuFjSZFgXXbi7FXa_!!647482297.png\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i3/647482297/TB215VarrBmpuFjSZFuXXaG_XXa_!!647482297.png\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i3/647482297/TB2yDzJlhRDOuFjSZFzXXcIipXa_!!647482297.png\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i1/647482297/TB2AeM0ripnpuFjSZFkXXc4ZpXa_!!647482297.png\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i4/647482297/TB2sv7.rm8mpuFjSZFMXXaxpVXa_!!647482297.png\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i3/647482297/TB2OVSrl1tTMeFjSZFOXXaTiVXa_!!647482297.png\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i2/647482297/TB2IJQkrbJmpuFjSZFwXXaE4VXa_!!647482297.jpg\"\u003e\u003cimg align\u003d\"absmiddle\" src\u003d\"https://img.alicdn.com/imgextra/i1/647482297/TB25SO6owNlpuFjy0FfXXX3CpXa_!!647482297.png\"\u003e\u003c/p\u003e\u0027;",
+   "Currency":"SGD",
+   "Price":120.94,
+   "ShippingPrice":0.0,
+   "PriceWithShipping":120.94,
+   "SellerId":"63911505",
+   "Specifications":[  
+      "是否线控 : 是",
+      "品牌 : BOSE",
+      "套餐类型 : 官方标配",
+      "耳机售后服务 : 全国联保",
+      "型号 : SoundSport耳塞式运动耳机",
+      "耳机类型 : 有线",
+      "耳机类别 : 手机线控耳机 运动耳机",
+      "生产企业 : Bose",
+      "插头直径 : 3\\uff0e5mm",
+      "兼容平台 : ANDROID iOS",
+      "佩戴方式 : 耳塞式",
+      "颜色分类 : 灰白色 黑色-AND 蓝色 红色 黑色 Audio 灰白色 Audio 绿色 黑色",
+      "保修期 : 12个月",
+      "套餐类型:官方标配 咨询有优惠"
+   ],
+   "Images":[  
+      "https://img.alicdn.com/imgextra/i4/647482297/TB23bckqbsTMeJjSszgXXacpFXa_!!647482297.jpg",
+      "https://img.alicdn.com/imgextra/i4/647482297/TB28qZobhaJ.eBjSsziXXaJ_XXa_!!647482297.jpg",
+      "https://img.alicdn.com/imgextra/i4/647482297/TB2dVmGpVXXXXbaXpXXXXXXXXXX_!!647482297.jpg",
+      "https://img.alicdn.com/imgextra/i3/647482297/TB29l0XpVXXXXX4XXXXXXXXXXXX_!!647482297.jpg",
+      "https://img.alicdn.com/imgextra/i1/647482297/TB2W4xzbICO.eBjSZFzXXaRiVXa_!!647482297.jpg"
+   ],
+   "CrawlerUrls":[  
+      {  
+         "Retailer":"Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d523106884882"
+      },
+      {  
+         "Retailer":"Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d523106884882"
+      },
+      {  
+         "Retailer":"Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d526558749068"
+      },
+      {  
+         "Retailer":"Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d526558749068"
+      },
+      {  
+         "Retailer":"Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d527414606884"
+      },
+      {  
+         "Retailer":"Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d540278983671"
+      }
+   ],
+   "NumberOfOffers":6,
+   "Offers":[  
+      {  
+         "ProductId":"3611372623017_Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d523106884882",
+         "Title":"BOSE SoundSport耳塞式运动耳机II 入耳式通用跑步降噪线控带麦",
+         "SellerRating":0.0,
+         "SellerId":"63911505",
+         "Retailer":"Taobao",
+         "Condition":"New",
+         "Currency":"SGD",
+         "Category":"Bluetooth Headphones",
+         "Price":120.94,
+         "ShippingPrice":0.0,
+         "PriceWithShipping":120.94,
+         "ShippingCountries":[  
+
+         ]
+      },
+      {  
+         "ProductId":"3611372623020_Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d523106884882",
+         "Title":"BOSE SoundSport耳塞式运动耳机II 入耳式通用跑步降噪线控带麦",
+         "SellerRating":0.0,
+         "SellerId":"63911505",
+         "Retailer":"Taobao",
+         "Condition":"New",
+         "Currency":"SGD",
+         "Category":"Bluetooth Headphones",
+         "Price":120.94,
+         "ShippingPrice":0.0,
+         "PriceWithShipping":120.94,
+         "ShippingCountries":[  
+
+         ]
+      },
+      {  
+         "ProductId":"3444397174590_Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d526558749068",
+         "Title":"BOSE SoundSport耳塞式运动耳机 重低音入耳式防脱降噪音乐耳机",
+         "SellerRating":0.0,
+         "SellerId":"145616391",
+         "Retailer":"Taobao",
+         "Condition":"New",
+         "Currency":"SGD",
+         "Category":"Bluetooth Headphones",
+         "Price":151.43,
+         "ShippingPrice":0.0,
+         "PriceWithShipping":151.43,
+         "ShippingCountries":[  
+
+         ]
+      },
+      {  
+         "ProductId":"3433537815908_Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d526558749068",
+         "Title":"BOSE SoundSport耳塞式运动耳机 重低音入耳式防脱降噪音乐耳机",
+         "SellerRating":0.0,
+         "SellerId":"145616391",
+         "Retailer":"Taobao",
+         "Condition":"New",
+         "Currency":"SGD",
+         "Category":"Bluetooth Headphones",
+         "Price":151.43,
+         "ShippingPrice":0.0,
+         "PriceWithShipping":151.43,
+         "ShippingCountries":[  
+
+         ]
+      },
+      {  
+         "ProductId":"3645387030868_Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d527414606884",
+         "Title":"亚马逊BOSE SoundSport耳塞式运动耳机II重低音入耳式降噪耳机",
+         "SellerRating":0.0,
+         "SellerId":"116504175",
+         "Retailer":"Taobao",
+         "Condition":"New",
+         "Currency":"SGD",
+         "Category":"Bluetooth Headphones",
+         "Price":151.23,
+         "ShippingPrice":0.0,
+         "PriceWithShipping":151.23,
+         "ShippingCountries":[  
+
+         ]
+      },
+      {  
+         "ProductId":"3203398547080_Taobao",
+         "Url":"detail.tmall.com/item.htm?id\u003d540278983671",
+         "Title":"BOSE SoundSport耳塞式运动耳机入耳式耳机防汗防滑运动手机耳机",
+         "SellerRating":0.0,
+         "SellerId":"195767091",
+         "Retailer":"Taobao",
+         "Condition":"New",
+         "Currency":"SGD",
+         "Category":"Bluetooth Headphones",
+         "Price":151.43,
+         "ShippingPrice":0.0,
+         "PriceWithShipping":151.43,
+         "ShippingCountries":[  
+
+         ]
+      }
+   ]
   }
   res.json(message);
 };
@@ -6454,4 +6177,5 @@ api.retrieveItemByKeyword = (req, res) => {
   };
   res.json(message);
 } 
+
 module.exports = api;
