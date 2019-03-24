@@ -6178,4 +6178,11 @@ api.retrieveItemByKeyword = (req, res) => {
   res.json(message);
 } 
 
+api.changePwd = (req, res) => {
+  const message = {
+    status: 0,
+    message: "NM$L",
+  };
+  res.json(message);
+};
 module.exports = api;

@@ -5,11 +5,11 @@ module.exports = function (app) {
   app.route('/socialLogin').post(api.socialLogin);
   app.route('/login').post(api.login);
   app.route('/activate').post(api.activate);
-  app.route('/user/createSession').post(api.createSession);
-  app.route('/user/initPreference').post(api.initPreference);
-  app.route('/user/trackAction').post(api.trackAction);
-  app.route('/item/retrievePersonalizedItem').post(api.retrievePersonalizedItem);
-  app.route('/user/closeSession').post(api.closeSession);
+  app.route('/createSession').post(api.createSession);
+  app.route('/initPreference').post(api.initPreference);
+  app.route('/trackAction').post(api.trackAction);
+  app.route('/retrievePersonalizedItem').post(api.retrievePersonalizedItem);
+  app.route('/closeSession').post(api.closeSession);
   app.route('/products').post(api.products);
   app.route('/currency').get(api.currency);
   app.route('/product').get(api.product);
@@ -17,5 +17,6 @@ module.exports = function (app) {
   app.route('/getUpdate').get(api.getUpdate);
   app.route('/search').get(api.search);
   app.route('/like').post(api.like);
-  app.route('/item/retrieveItemByKeyword').post(api.retrieveItemByKeyword);
+  app.route('/retrieveItemByKeyword').post(api.retrieveItemByKeyword);
+  app.route('/changePwd').post(api.changePwd);
 };
