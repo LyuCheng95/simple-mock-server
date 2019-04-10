@@ -253,6 +253,33 @@ api.products = (req, res) => {
       "avgProductRating": 2.0,
       "color": ""
     }, {
+      "title": "Xerox Phaser 3500DN - printer - B/W - laser ( 3500/DN )",
+      "price": 82.5,
+      "currency": "USD",
+      "images": ["https://images-na.ssl-images-amazon.com/images/I/41cl5pGoo9L._SS40_.jpg", "https://images-na.ssl-images-amazon.com/images/I/41cl5pGoo9L.jpg"],
+      "totalOffers": 3,
+      "totalReviews": 1,
+      "avgProductRating": 2.0,
+      "color": ""
+    }, {
+      "title": "Xerox Phaser 3500DN - printer - B/W - laser ( 3500/DN )",
+      "price": 82.5,
+      "currency": "USD",
+      "images": ["https://images-na.ssl-images-amazon.com/images/I/41cl5pGoo9L._SS40_.jpg", "https://images-na.ssl-images-amazon.com/images/I/41cl5pGoo9L.jpg"],
+      "totalOffers": 3,
+      "totalReviews": 1,
+      "avgProductRating": 2.0,
+      "color": ""
+    }, {
+      "title": "Xerox Phaser 3500DN - printer - B/W - laser ( 3500/DN )",
+      "price": 82.5,
+      "currency": "USD",
+      "images": ["https://images-na.ssl-images-amazon.com/images/I/41cl5pGoo9L._SS40_.jpg", "https://images-na.ssl-images-amazon.com/images/I/41cl5pGoo9L.jpg"],
+      "totalOffers": 3,
+      "totalReviews": 1,
+      "avgProductRating": 2.0,
+      "color": ""
+    }, {
       "title": "Picun D2 Metal In-Ear Headphones with Microphone, Noise Isolating Earbuds Wired Bass Stereo Earphones Compatible with Apple iOS and Android Smartphones (Matte Black)",
       "price": 20.6,
       "currency": "USD",
@@ -447,6 +474,8 @@ api.currency = (req, res) => {
 api.product = (req, res) => {
   const message = {  
    "InterClusterId":"ICS5411",
+   "Brand":"Sony",
+   "GeneratedBrand":"NA",
    "Url":"detail.tmall.com/item.htm?id\u003d523106884882",
    "Title":"BOSE SoundSport耳塞式运动耳机II 入耳式通用跑步降噪线控带麦",
    "Category":"Bluetooth Headphones",
@@ -6180,7 +6209,7 @@ api.retrieveItemByKeyword = (req, res) => {
 
 api.changePwd = (req, res) => {
   const message = {
-    status: 0,
+    status: 1,
     message: "NM$L",
   };
   res.json(message);
